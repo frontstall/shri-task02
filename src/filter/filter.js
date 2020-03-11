@@ -1,5 +1,5 @@
 /* eslint-disable no-await-in-loop */
-import api from './api';
+import api from '../api';
 
 const { AsyncArray } = api;
 
