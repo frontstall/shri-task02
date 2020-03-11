@@ -20,6 +20,7 @@ const AsyncArray = function (initial) {
   this.length = (cb) => _wrap(() => a.length, cb);
 
   this.print = () => { console.log(a.toString()); };
+  this.getValue = () => a;
 };
 
 const add = (a, b, cb) => _wrap(() => a + b, cb);
